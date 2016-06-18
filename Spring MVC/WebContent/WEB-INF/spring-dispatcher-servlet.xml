@@ -6,9 +6,6 @@
  
  <bean	id="HandlerMapping"  class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
  
-	
- <bean name="/welcome.html" class="com.tutorialspoint.HelloController" />
- 
  
  <bean id="viewResolver"
     	class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
